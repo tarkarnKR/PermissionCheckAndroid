@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.tarkarn.main.MainActivity">
+
+    <Button
+        android:id="@+id/btn_permission_calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="CALENDAR" />
+
+    <Button
+        android:id="@+id/btn_permission_camera"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="CAMERA" />
+
+    <Button
+        android:id="@+id/btn_permission_contact"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="CONTACT" />
+
+    <Button
+        android:id="@+id/btn_permission_location"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="LOCATION" />
+
+    <Button
+        android:id="@+id/btn_permission_microphone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="MICROPHONE" />
+
+    <Button
+        android:id="@+id/btn_permission_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="PHONE" />
+
+    <Button
+        android:id="@+id/btn_permission_sensors"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="SENSORS" />
+
+    <Button
+        android:id="@+id/btn_permission_sms"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="SMS" />
+
+    <Button
+        android:id="@+id/btn_permission_storage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:text="STORAGE" />
+
+</LinearLayout>
